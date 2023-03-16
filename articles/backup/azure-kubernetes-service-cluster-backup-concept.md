@@ -10,7 +10,7 @@ ms.author: jsuri
 
 # Prerequisites for Azure Kubernetes Service backup using Azure Backup (preview)
 
-This article describes the prerequisites for Azure Kubernetes Sercuce (AKS) backup.
+This article describes the prerequisites for Azure Kubernetes Service (AKS) backup.
 
 Azure Backup now allows you to back up AKS clusters (cluster resources and persistent volumes attached to the cluster) using a backup extension, which must be installed in the cluster. Backup vault communicates with the cluster via this Backup Extension to perform backup and restore operations. Based on the least privileged security model, a Backup vault must have *Trusted Access* enabled to communicate with the AKS cluster. 
 
